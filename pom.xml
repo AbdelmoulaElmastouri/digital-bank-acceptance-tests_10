@@ -15,6 +15,12 @@
 
   <dependencies>
 
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.28</version>
+    </dependency>
+
   <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter</artifactId>
@@ -68,8 +74,6 @@
       <artifactId>javafaker</artifactId>
       <version>1.0.2</version>
     </dependency>
-
-
 
   </dependencies>
 

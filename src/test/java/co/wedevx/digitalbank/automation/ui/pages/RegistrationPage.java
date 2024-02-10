@@ -1,29 +1,23 @@
 package co.wedevx.digitalbank.automation.ui.pages;
 
 import co.wedevx.digitalbank.automation.ui.utils.MockData;
-import org.bouncycastle.crypto.agreement.srp.SRP6Client;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
 import java.util.List;
 import java.util.Map;
 
-public class RegistrationPage {
+public class RegistrationPage extends BasePage{
 
     MockData mockData = new MockData();
-    private  WebDriver driver;
 
     public RegistrationPage (WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
 
     @FindBy(id = "title")
@@ -89,9 +83,8 @@ public class RegistrationPage {
     @FindBy(id = "agree-terms")
     private WebElement agreeTermsCheckBox;
 
-    @FindBy(xpath = "//div[@class='sufee-alert alert with-close alert-success alert-dismissible fade show']")
+    @FindBy(xpath = "//div[@class='sufee-alert alert with-close alert-danger alert-dismissible fade show']")
     private WebElement messageLabel;
-
 
     public void fillOutRegistrationForm(List<Map<String, String>> registrationTestDataLisOfMap ) {
 
@@ -126,16 +119,11 @@ public class RegistrationPage {
         }
 
         if(firstRow.get("ssn") != null) {
-            if (firstRow.get("ssn").equalsIgnoreCase("random")) {
-                ssnTxt.sendKeys(mockData.generateRandomSsn());
-            }
+            ssnTxt.sendKeys(firstRow.get("ssn"));
         }
 
         if(firstRow.get("email") != null) {
-            if (firstRow.get("email").equalsIgnoreCase("random")) {
-                Map<String, String > mockNameAndEmail = mockData.generateRandomNameEmail();
-                ssnTxt.sendKeys(mockData.generateRandomNameEmail().get("email"));
-            }
+            emailAddressTxt.sendKeys(firstRow.get("email"));
         }
 
         if(firstRow.get("password") != null) {
@@ -192,11 +180,9 @@ public class RegistrationPage {
         }
     }
 
-
     public String getMessage(){
         return messageLabel.getText().substring(0, messageLabel.getText().lastIndexOf(".")+1);
     }
-
 
     public String getRequiredFieldErrorMessage(String fieldName){
         switch (fieldName.toLowerCase()){

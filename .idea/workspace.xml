@@ -4,27 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="226a2773-14c7-48f6-9d1c-2804637c805e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/steps/RegistrationSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/utils/BrowserHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/utils/MockData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" afterDir="false" />
+    <list default="true" id="226a2773-14c7-48f6-9d1c-2804637c805e" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/db/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/justForPractice/db/PracticeSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/pages/BaseMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/pages/CreatCheckinPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/pages/viewCheckingAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/runners/SmokeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/utils/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/html/demo1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/html/junit-platform.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/models/AccountCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/models/AccountCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/models/BankTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/models/BankTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/models/NewCheckingAccountInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/models/NewCheckingAccountInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/pages/RegistrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/runners/uiRegressionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/runners/uiRegressionRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/steps/CheckingAccountSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/steps/CheckingAccountSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/steps/data_transformers/DataTableTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/steps/data_transformers/DataTableTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/utils/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/utils/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/steps/RegistrationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/wedevx/digitalbank/automation/ui/steps/RegistrationSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/properties/digitalbank.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/digitalbank.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/junit-platform.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ui/features/Checking/NewChecking.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ui/features/Checking/NewChecking.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ui/features/Checking/NewChecking.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ui/features.checking/Checking/NewChecking.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ui/features.checking/LoginAndRegistration/Registration.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -57,6 +61,9 @@
   &quot;keyToString&quot;: {
     &quot;Application.ConfigReader.executor&quot;: &quot;Run&quot;,
     &quot;Application.MockData.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PracticeSQL.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: NewChecking.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: Registration (1).executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: Registration.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Creat a standard individual checking account.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data - @NegativeReg... - Example n°1.executor&quot;: &quot;Run&quot;,
@@ -72,6 +79,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/elmastouri/Documents/SDET/digital-bank-acceptance-tests/src/test/resources/ui/features&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -85,18 +93,38 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/ui/features" />
+      <recent name="$PROJECT_DIR$/src/test/resources/ui/features.checking" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/ui/features" />
+      <recent name="$PROJECT_DIR$/src/test/resources/ui" />
       <recent name="$PROJECT_DIR$/src/test/resources/ui/features/" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.wedevx.digitalbank.automation.ui.utils" />
       <recent name="co.wedevx.digitalbank.automation.ui.steps.data_transformers" />
       <recent name="co.wedevx.digitalbank.automation.ui.models" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Registration">
-    <configuration name="Feature: Registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Positive Case. As a user, I want to successfully create Digital Bank account">
+    <configuration name="PracticeSQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="justForPractice.db.PracticeSQL" />
+      <module name="digital-bank-acceptance-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="justForPractice.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Registration (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui/features.checking/LoginAndRegistration/Registration.feature" />
       <option name="GLUE" value="co.wedevx.digitalbank.automation.ui.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="digital-bank-acceptance-tests" />
@@ -113,55 +141,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data - @NegativeReg... - Example n°1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Creat a standard individual checking account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature:24" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui/features.checking/Checking/NewChecking.feature" />
       <option name="GLUE" value="co.wedevx.digitalbank.automation.ui.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="digital-bank-acceptance-tests" />
-      <option name="NAME_FILTER" value="^Negative Test Cases\. As a Digital Bank Admin I want to make sure users can not register without providing all valid data$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negative Test Cases\. As a Digital Bank Admin I want to make sure users can not register without providing all valid data$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data - @NegativeReg... - Example n°1" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" />
-      <option name="GLUE" value="co.wedevx.digitalbank.automation.ui.steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="digital-bank-acceptance-tests" />
-      <option name="NAME_FILTER" value="^Negative Test Cases\. As a Digital Bank Admin I want to make sure users can not register without providing all valid data$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Negative Test Cases\. As a Digital Bank Admin I want to make sure users can not register without providing all valid data$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Positive Case, As a user to successfully create Digital Bank account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" />
-      <option name="GLUE" value="co.wedevx.digitalbank.automation.ui.steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="digital-bank-acceptance-tests" />
-      <option name="NAME_FILTER" value="^Positive Case\, As a user to successfully create Digital Bank account$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Positive Case\, As a user to successfully create Digital Bank account$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Positive Case, As a user to successfully create Digital Bank account" />
+      <option name="NAME_FILTER" value="^Creat a standard individual checking account$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Creat a standard individual checking account$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Creat a standard individual checking account" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -175,7 +163,7 @@
     </configuration>
     <configuration name="Scenario: Positive Case. As a user, I want to successfully create Digital Bank account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui/features/LoginAndRegistration/Registration.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui/features.checking/LoginAndRegistration/Registration.feature" />
       <option name="GLUE" value="co.wedevx.digitalbank.automation.ui.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="digital-bank-acceptance-tests" />
@@ -193,13 +181,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="uiRegressionRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="digital-bank-acceptance-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.wedevx.digitalbank.automation.ui.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.wedevx.digitalbank.automation.ui.runners" />
+      <option name="MAIN_CLASS_NAME" value="co.wedevx.digitalbank.automation.ui.runners.uiRegressionRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: Registration" />
-        <item itemvalue="Cucumber Java.Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data" />
-        <item itemvalue="Cucumber Java.Scenario: Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data - @NegativeReg... - Example n°1" />
         <item itemvalue="Cucumber Java.Scenario: Positive Case. As a user, I want to successfully create Digital Bank account" />
-        <item itemvalue="Cucumber Java.Scenario: Positive Case, As a user to successfully create Digital Bank account" />
+        <item itemvalue="Cucumber Java.Feature: Registration (1)" />
+        <item itemvalue="JUnit.uiRegressionRunner" />
+        <item itemvalue="Application.PracticeSQL" />
+        <item itemvalue="Cucumber Java.Scenario: Creat a standard individual checking account" />
       </list>
     </recent_temporary>
   </component>
@@ -238,10 +241,32 @@
       <workItem from="1705720622386" duration="77000" />
       <workItem from="1705720722051" duration="1108000" />
       <workItem from="1705722618525" duration="2432000" />
+      <workItem from="1705849588102" duration="1048000" />
+      <workItem from="1705966340031" duration="20650000" />
+      <workItem from="1706033185086" duration="15834000" />
+      <workItem from="1707405829952" duration="12000" />
+      <workItem from="1707405870612" duration="286000" />
+      <workItem from="1707406211937" duration="7742000" />
+      <workItem from="1707447488543" duration="14130000" />
+      <workItem from="1707504828223" duration="14881000" />
+      <workItem from="1707597169876" duration="496000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1705849783623</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705849783623</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
