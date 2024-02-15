@@ -1,0 +1,33 @@
+Index: src/test/java/co/wedevx/digitalbank/automation/ui/pages/BaseMenuPage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/co/wedevx/digitalbank/automation/ui/pages/BaseMenuPage.java b/src/test/java/co/wedevx/digitalbank/automation/ui/pages/BaseMenuPage.java
+--- a/src/test/java/co/wedevx/digitalbank/automation/ui/pages/BaseMenuPage.java	
++++ b/src/test/java/co/wedevx/digitalbank/automation/ui/pages/BaseMenuPage.java	(date 1706071600317)
+@@ -10,12 +10,21 @@
+         super(driver);
+     }
+ 
+-    @FindBy(id = "checking-menu")
++    @FindBy(id ="checking-menu")
+     protected WebElement checkingMenu;
+ 
+-    @FindBy(id = "new-checking-menu-item")
++    @FindBy(id ="new-checking-menu-item")
+     protected WebElement newCheckingButton;
+ 
+-    @FindBy(id = "view-checking-menu-item")
++    @FindBy(id ="view-checking-menu-item")
+     protected WebElement viewCheckingButton;
++
++
++    @FindBy(id ="home-menu-item")
++    protected WebElement homeButton;
++
++    public void goToHomePage() {
++        homeButton.click();
++    }
++
+ }
